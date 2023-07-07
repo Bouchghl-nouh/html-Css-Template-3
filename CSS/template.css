@@ -47,3 +47,41 @@ ul{
     }
 }
 /* End Global Rules */
+/* Start Header  */
+header{
+    
+}
+header .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header .container .logo {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+header .container ul {
+    display :flex ; 
+  
+
+}
+header .container ul li {
+    padding: 20px ; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+header .container ul li a {
+    text-decoration: none;
+    color: initial;
+}
+header .container ul li:hover {
+    background-color : #fafafa;
+}
+/* End Header */
